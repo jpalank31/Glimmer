@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hey Stupid...🥸</title>
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
         background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        margin: 0;
+        padding: 20px;
       }
       h1 {
         text-align: center;
-        font-size: 50px;
+        font-size: 2.5em; /* Adjusted for larger screens */
       }
       h2 {
         text-align: center;
+        font-size: 2em; /* Adjusted for larger screens */
       }
       h4 {
         text-align: center;
         padding: 10px;
+        font-size: 1.5em; /* Adjusted for larger screens */
       }
       hr {
         background-color: #132743;
         color: #132743;
         width: 30%;
-        padding: 0px;
+        padding: 0;
         margin: 8px auto 20px;
       }
       button {
         display: block;
+        width: 90%; /* Full width on mobile */
+        max-width: 300px; /* Limit max width */
         margin: 20px auto;
-        font-size: 18px;
+        font-size: 1.2em; /* Adjusted for larger screens */
         padding: 15px 20px;
         border-radius: 4px;
         border: 1px solid;
@@ -40,6 +47,18 @@
         background: #22395a;
         color: white;
         cursor: pointer;
+      }
+
+      /* Media queries for responsiveness */
+      @media (max-width: 600px) {
+        h1,
+        h2,
+        h4 {
+          font-size: 4vw; /* Responsive size for mobile */
+        }
+        button {
+          font-size: 4vw; /* Responsive size for mobile */
+        }
       }
     </style>
   </head>
@@ -54,126 +73,152 @@
 
     <h4>Made just for you 🫵</h4>
     <hr />
-      <button id="myButton2" data-enable-date="2025-01-28T21:03:00"
+
+    <div id="button-container">
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
       >
         February 2
       </button>
       <button
-        id="myButton3"
-        data-enable-date="2025-01-28T21:04:00"
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb3/"
+        data-enable-date="2025-01-28T21:03:00"
       >
         February 3
       </button>
-    </a>
-    <button
-      id="myButton4"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 4
-    </button>
-    <button
-      id="myButton5"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 5
-    </button>
-    <button
-      id="myButton6"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 6
-    </button>
-    <button
-      id="myButton7"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 7
-    </button>
-    <button
-      id="myButton8"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 8
-    </button>
-    <button
-      id="myButton9"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 9
-    </button>
-    <button
-      id="myButton10"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 10
-    </button>
-    <button
-      id="myButton11"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 11
-    </button>
-    <button
-      id="myButton12"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 12
-    </button>
-    <button
-      id="myButton13"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 13
-    </button>
-    <button
-      id="myButton14"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 14
-    </button>
-    <button
-      id="myButton15"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 15
-    </button>
-    <button
-      id="myButton16"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 16
-    </button>
-    <button
-      id="myButton17"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 17
-    </button>
-    <button
-      id="myButton18"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      February 18</button
-    ><br />
-    <button
-      id="myButtonB"
-      data-enable-date="2025-01-28T21:15:00"
-    >
-      Bonus
-    </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb4/"
+        data-enable-date="2025-01-30T00:22:00"
+      >
+        February 4
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 5
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 6
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 7
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 8
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 9
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 10
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 11
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 12
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 13
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 14
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 15
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 16
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 17
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        February 18
+      </button>
+      <button
+        class="nav-button"
+        data-url="https://jpalank31.github.io/Feb2/"
+        data-enable-date="2025-01-28T21:03:00"
+      >
+        Bonus
+      </button>
+    </div>
 
     <script>
       function updateButtonsState() {
         const now = new Date();
-        document.querySelectorAll("button").forEach((button) => {
+        document.querySelectorAll(".nav-button").forEach((button) => {
           const enableDate = new Date(button.getAttribute("data-enable-date"));
           button.disabled = now < enableDate;
         });
       }
 
-      document.getElementById("myButton2").onclick = function() {
-        window.location.href = "https://jpalank31.github.io/Feb2/";
-    };
+      document.querySelectorAll(".nav-button").forEach((button) => {
+        button.onclick = function () {
+          const url = button.getAttribute("data-url");
+          window.location.href = url;
+        };
+      });
+
       updateButtonsState();
       setInterval(updateButtonsState, 1000);
     </script>
