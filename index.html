@@ -54,131 +54,110 @@
 
     <h4>Made just for you 🫵</h4>
     <hr />
-    <a href="https://jpalank31.github.io/Feb2/">
-    <button
-      id="myButton2"
-      data-enable-date="2025-01-28T21:03:00"
-      onclick="openNewTab2()"
-    >
-      February 2
-    </button>
+      <button id="myButton2" data-enable-date="2025-01-28T21:03:00"
+      >
+        February 2
+      </button>
+      <button
+        id="myButton3"
+        data-enable-date="2025-01-28T21:04:00"
+      >
+        February 3
+      </button>
     </a>
-    <button
-      id="myButton3"
-      data-enable-date="2025-01-28T21:04:00"
-      onclick="openNewTab3()"
-    >
-      February 3
-    </button>
     <button
       id="myButton4"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab4()"
     >
       February 4
     </button>
     <button
-      id="myButton4"
+      id="myButton5"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab5()"
     >
       February 5
     </button>
     <button
-      id="myButton4"
+      id="myButton6"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab6()"
     >
       February 6
     </button>
     <button
-      id="myButton4"
+      id="myButton7"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab7()"
     >
       February 7
     </button>
     <button
-      id="myButton4"
+      id="myButton8"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab8()"
     >
       February 8
     </button>
     <button
-      id="myButton4"
+      id="myButton9"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab9()"
     >
       February 9
     </button>
     <button
-      id="myButton4"
+      id="myButton10"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab10()"
     >
       February 10
     </button>
     <button
-      id="myButton4"
+      id="myButton11"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab11()"
     >
       February 11
     </button>
     <button
-      id="myButton4"
+      id="myButton12"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab12()"
     >
       February 12
     </button>
     <button
-      id="myButton4"
+      id="myButton13"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab13()"
     >
       February 13
     </button>
     <button
-      id="myButton4"
+      id="myButton14"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab14()"
     >
       February 14
     </button>
     <button
-      id="myButton4"
+      id="myButton15"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab15()"
     >
       February 15
     </button>
     <button
-      id="myButton4"
+      id="myButton16"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab16()"
     >
       February 16
     </button>
     <button
-      id="myButton4"
+      id="myButton17"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab17()"
     >
       February 17
     </button>
     <button
-      id="myButton4"
+      id="myButton18"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTab18()"
     >
       February 18</button
     ><br />
     <button
-      id="myButton4"
+      id="myButtonB"
       data-enable-date="2025-01-28T21:15:00"
-      onclick="openNewTabB()"
     >
       Bonus
     </button>
@@ -192,9 +171,9 @@
         });
       }
 
-      function openNewTab2() {
-        window.open("https://jpalank31.github.io/Testing/", "_blank");
-      }
+      document.getElementById("myButton2").onclick = function() {
+        window.location.href = "https://jpalank31.github.io/Feb2/";
+    };
       updateButtonsState();
       setInterval(updateButtonsState, 1000);
     </script>
